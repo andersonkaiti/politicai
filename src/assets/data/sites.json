@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Tribunal Superior Eleitoral (TSE)",
+    "institution": "Tribunal Superior Eleitoral (órgão público federal)",
+    "url": "https://www.tse.jus.br",
+    "average-access": "Aproximadamente 3 a 5 milhões de visitas mensais durante períodos eleitorais."
+  },
+  {
+    "name": "Portal da Transparência",
+    "institution": "Controladoria-Geral da União (CGU)",
+    "url": "https://www.portaltransparencia.gov.br",
+    "average-access": "Aproximadamente 1 a 2 milhões de visitas mensais, especialmente em períodos de grande interesse público."
+  },
+  {
+    "name": "Datafolha",
+    "institution": "Folha de S.Paulo",
+    "url": "https://datafolha.folha.uol.com.br",
+    "average-access": "Entre 500 mil e 1 milhão de visitas mensais."
+  },
+  {
+    "name": "G1 Eleições",
+    "institution": "Grupo Globo de Comunicação",
+    "url": "https://g1.globo.com/politica/eleicoes",
+    "average-access": "Cerca de 10 milhões de visitas mensais durante o período eleitoral."
+  },
+  {
+    "name": "Congresso em Foco",
+    "institution": "Congresso em Foco (portal independente)",
+    "url": "https://congressoemfoco.uol.com.br",
+    "average-access": "Entre 300 mil e 500 mil visitas mensais."
+  },
+  {
+    "name": "UOL Eleições",
+    "institution": "UOL (Universo Online)",
+    "url": "https://eleicoes.uol.com.br",
+    "average-access": "Cerca de 5 milhões de visitas mensais."
+  },
+  {
+    "name": "Estadão Eleições",
+    "institution": "Grupo O Estado de S. Paulo.",
+    "url": "https://politica.estadao.com.br/eleicoes",
+    "average-access": "Aproximadamente 1 a 3 milhões de visitas mensais."
+  },
+  {
+    "name": "Politize!",
+    "institution": "Politize! (plataforma educativa)",
+    "url": "https://www.politize.com.br",
+    "average-access": "Entre 500 mil e 800 mil visitas mensais."
+  }
+]

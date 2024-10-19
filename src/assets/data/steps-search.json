@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Tribunal Superior Eleitoral (TSE)",
+    "steps": [
+      "Acesse o site: TSE;",
+      "No topo, clique em \"Eleições\" e escolha a informação desejada, como candidatos, resultados ou legislação eleitoral."
+    ],
+    "tip": "Para buscar eleições passadas, use \"Resultados de eleições anteriores\"."
+  },
+  {
+    "name": "Portal da Transparência",
+    "steps": [
+      "Acesse: Portal da Transparência;",
+      "No menu \"Eleições\", clique em \"Contas de campanha\" para ver detalhes de financiamento eleitoral."
+    ],
+    "tip": "Pesquise por candidatos e partidos, filtrando por ano ou tipo de eleição."
+  },
+  {
+    "name": "Datafolha",
+    "steps": [
+      "Acesse: Datafolha.",
+      "Vá para \"Pesquisas\" e depois \"Eleitoral\" para procurar pesquisas de intenção de voto;"
+    ],
+    "tip": "As pesquisas trazem detalhes demográficos."
+  },
+  {
+    "name": "G1 Eleições",
+    "steps": [
+      "Acesse: G1 Eleições;",
+      "Pesquise por candidatos ou temas eleitorais e filtre por notícias ou vídeos."
+    ],
+    "tip": "Veja \"Últimas notícias\" para atualizações ao vivo."
+  },
+  {
+    "name": "Congresso em Foco",
+    "steps": [
+      "Acesse: Congresso em Foco;",
+      "Clique em \"Eleições\" no menu e use a pesquisa para encontrar informações sobre políticos e partidos."
+    ],
+    "tip": "Confira o \"Ranking dos Políticos\" para avaliar parlamentares."
+  },
+  {
+    "name": "UOL Eleições",
+    "steps": [
+      "Acesse: UOL Eleições;",
+      "Pesquise por notícias, candidatos e propostas eleitorais."
+    ],
+    "tip": "Veja as seções de \"Notícias\" e \"Análises\" para conteúdos atualizados."
+  },
+  {
+    "name": "Estadão Eleições",
+    "steps": [
+      "Acesse: Estadão Eleições;",
+      "Pesquise por eleições, candidatos e navegue nas seções de debates e análises."
+    ],
+    "tip": "Veja matérias de opinião para entender o impacto político."
+  },
+  {
+    "name": "Politize!",
+    "steps": [
+      "Acesse: Politize!;",
+      "Pesquise por temas como candidatos ou debates."
+    ],
+    "tip": "Politize! oferece explicações fáceis sobre política e eleições."
+  },
+  {
+    "name": "Poder360",
+    "steps": [
+      "Acesse: Poder360;",
+      "Clique em \"Eleições\" no menu e busque temas eleitorais como campanhas e financiamentos."
+    ],
+    "tip": "Veja gráficos e análises detalhadas sobre as pesquisas."
+  }
+]
