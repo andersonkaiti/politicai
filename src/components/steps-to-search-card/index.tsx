@@ -1,5 +1,5 @@
-import { styles } from "@/styles";
 import { Ionicons } from "@expo/vector-icons";
+import { boxShadow } from "@styles/boxShadow";
 import { Text, View } from "react-native";
 
 export interface IStepsToSearchCardProps {
@@ -16,7 +16,7 @@ export default function StepsToSearchCard({
   return (
     <View
       className="bg-white px-8 py-8 mx-4 rounded-2xl gap-4"
-      style={styles.shadow}
+      style={boxShadow.shadow}
     >
       <Text className="text-2xl font-bold text-[#767676]">{name}</Text>
       <View className="py-4">

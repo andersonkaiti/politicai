@@ -1,11 +1,10 @@
-import { FlatList, StatusBar, View } from "react-native";
-import stepsSearch from "@/assets/data/steps-search.json";
-import StepsToSearchCard from "@/components/steps-to-search-card";
+import { FlatList, View } from "react-native";
+import stepsSearch from "@assets/data/steps-search.json";
+import StepsToSearchCard from "@components/steps-to-search-card";
 
 export default function Help() {
   return (
     <View>
-      <StatusBar barStyle="light-content" />
       <FlatList
         data={stepsSearch}
         renderItem={({ item }) => (

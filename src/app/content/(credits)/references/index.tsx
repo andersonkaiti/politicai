@@ -1,4 +1,4 @@
-import references from "@/assets/data/references.json";
+import references from "@assets/data/references.json";
 import { Linking, Pressable, Text, View } from "react-native";
 
 export default function References() {

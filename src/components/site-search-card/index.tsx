@@ -1,6 +1,6 @@
-import { styles } from "@/styles";
 import { Feather, Ionicons } from "@expo/vector-icons";
-import { Link } from "expo-router";
+import { boxShadow } from "@styles/boxShadow";
+import { Href, Link } from "expo-router";
 import { Linking, Pressable, Text, View } from "react-native";
 
 export interface ICardProps {
@@ -19,7 +19,7 @@ export default function SiteSearchCard({
   return (
     <View
       className="bg-white px-8 py-8 mx-4 rounded-2xl gap-4"
-      style={styles.shadow}
+      style={boxShadow.shadow}
     >
       <Text className="text-2xl font-bold text-[#767676]">{name}</Text>
       <View className="py-4 gap-2">
@@ -43,7 +43,7 @@ export default function SiteSearchCard({
       </View>
       <Link
         className="bg-[#173058] w-full px-4 py-2 rounded-md"
-        href={`/help/${name}`}
+        href={`/content/help/${name}` as Href}
       >
         <View className="w-full flex-row gap-2 justify-center items-center">
           <Feather name="search" size={20} color="#fff" />
