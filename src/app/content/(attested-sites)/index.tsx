@@ -1,11 +1,10 @@
-import { FlatList, StatusBar, View } from "react-native";
-import sites from "@/assets/data/sites.json";
-import SiteSearchCard from "@/components/site-search-card";
+import { FlatList, View } from "react-native";
+import sites from "@assets/data/sites.json";
+import SiteSearchCard from "@components/site-search-card";
 
 export default function SiteSearchCards() {
   return (
     <View>
-      <StatusBar barStyle="light-content" />
       <FlatList
         data={sites}
         renderItem={({ item }) => (

@@ -1,14 +1,13 @@
-import { Text, ScrollView, View, Image, StatusBar } from "react-native";
-import importance from "@/assets/data/importancia-voto.json";
+import { Text, ScrollView, View, Image } from "react-native";
+import importance from "@assets/data/importancia-voto.json";
 
 export default function Importance() {
   return (
     <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>
-      <StatusBar barStyle="light-content" />
       <View className="w-full px-4 pb-8 flex gap-4">
         <View className="object-contain overflow-hidden w-full flex items-center">
           <Image
-            source={require("@/assets/images/Political debate-pana.png")}
+            source={require("@assets/images/Political debate-pana.png")}
             style={{ width: "100%", height: 288 }}
           />
         </View>
