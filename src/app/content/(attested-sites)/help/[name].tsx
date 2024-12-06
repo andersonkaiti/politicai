@@ -19,8 +19,10 @@ export default function Help() {
   const { steps, tip } = searchResult;
 
   return (
-    <ScrollView className="my-4">
-      <StepsToSearchCard name={name as string} steps={steps} tip={tip} />
+    <ScrollView>
+      <View className="my-4">
+        <StepsToSearchCard name={name as string} steps={steps} tip={tip} />
+      </View>
     </ScrollView>
   );
 }
