@@ -1,12 +1,12 @@
 import { Ionicons } from "@expo/vector-icons";
 import { Link } from "expo-router";
 import { Image, ScrollView, StatusBar, Text, View } from "react-native";
+import Constants from "expo-constants";
 
 export default function Presentation() {
   return (
-    <ScrollView style={{ flex: 1 }}>
+    <ScrollView style={{ flex: 1, marginTop: Constants.statusBarHeight }}>
       <View className="w-full justify-center items-center gap-8 px-4 py-8">
-        <StatusBar barStyle="dark-content" />
         <Image
           source={require("@assets/images/Political debate-cuate.png")}
           style={{ width: "100%", height: 350 }}
