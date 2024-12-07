@@ -8,35 +8,35 @@
 
 ## Tela inicial
 
-![Tela inicial parte 1](https://github.com/user-attachments/assets/d9a0e566-2f14-498e-b79c-e3b4fee6603a)
+![Tela inicial parte 1](https://github.com/user-attachments/assets/ff706412-b5c7-4925-a5ca-943c81bbb4ce)
 
-![Tela inicial parte 2](https://github.com/user-attachments/assets/087170b2-6908-4d26-9655-31157568e57a)
+![Tela inicial parte 2](https://github.com/user-attachments/assets/fe8cfd2e-fe8b-4e78-bcb3-29a8c4a9533c)
 
 ## Fontes confiáveis
 
-![Sites confiáveis](https://github.com/user-attachments/assets/b0103b6a-d458-4094-b246-79f79136446f)
+![Sites confiáveis](https://github.com/user-attachments/assets/74f283dc-2c53-4bfe-9795-b0641668a92f)
 
-![Passo a passo individual](https://github.com/user-attachments/assets/06f9cd9c-c1cf-46b1-919a-eb1efc9741ec)
+![Passo a passo individual](https://github.com/user-attachments/assets/624346f4-a2d2-4ba3-a2ca-588f5d3fec50)
 
 ## Passo a passo
 
-![Passo a passo geral](https://github.com/user-attachments/assets/98ee5ee8-169a-4a80-9f12-4d253bae0867)
+![Passo a passo geral](https://github.com/user-attachments/assets/4f3f76db-9b9b-4073-a84e-71e886bf77fc)
 
 ## Importância do voto
 
-![Importância do voto](https://github.com/user-attachments/assets/3852a0f1-be55-46d0-b6f1-ed05c867ac9a)
+![Importância do voto](https://github.com/user-attachments/assets/28c45e61-0a92-4b46-b7c7-e612b2239a26)
 
 ## Fontes
 
-![Fontes para os acessos médios](https://github.com/user-attachments/assets/ff3a88d1-6ef5-48eb-b92a-f7216ae5689b)
+![Fontes para os acessos médios](https://github.com/user-attachments/assets/5407066b-4e5b-48cd-aecd-f97cdb9fa5a6)
 
 ## Créditos
 
-![Créditos](https://github.com/user-attachments/assets/b14b74c0-c006-48bc-af15-e094a6c2dcbc)
+![Créditos](https://github.com/user-attachments/assets/4a23db0f-4083-4587-82ee-90adfed597df)
 
 ## Referências
 
-![Referências](https://github.com/user-attachments/assets/847cf9d1-7b8e-4944-83e4-934cd6a85761)
+![Referências](https://github.com/user-attachments/assets/feca89f8-59f8-444e-bd79-f9636fa965ee)
 
 ---
 
