@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+# PoliticAI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+`PoliticAI` é um aplicativo móvel projetado para fornecer `informações confiáveis` e acessíveis sobre `eleições, política e cidadania` no Brasil. Ele ajuda os usuários a tomar decisões informadas e conscientes por meio de acesso direto a recursos confiáveis e guias detalhados.
 
-## Get started
+---
 
-1. Install dependencies
+# 🖥️ Telas do aplicativo
 
-   ```bash
-   npm install
-   ```
+## Tela inicial
 
-2. Start the app
+![Tela inicial parte 1](https://raw.githubusercontent.com/andersonkaiti/politicai/main/.github/images/tela-inicial-1.png)
 
-   ```bash
-    npx expo start
-   ```
+![Tela inicial parte 2](https://raw.githubusercontent.com/andersonkaiti/politicai/main/.github/images/tela-inicial-2.png)
 
-In the output, you'll find options to open the app in a
+## Fontes confiáveis
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![Sites confiáveis](https://raw.githubusercontent.com/andersonkaiti/politicai/main/.github/images/sites-confiaveis.png)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+![Passo a passo individual](https://raw.githubusercontent.com/andersonkaiti/politicai/main/.github/images/passo-a-passo-individual.png)
 
-## Get a fresh project
+## Passo a passo
 
-When you're ready, run:
+![Passo a passo geral](https://raw.githubusercontent.com/andersonkaiti/politicai/main/.github/images/passo-a-passo-geral.png)
+
+## Importância do voto
+
+![Importância do voto](https://raw.githubusercontent.com/andersonkaiti/politicai/main/.github/images/importancia-do-voto.png)
+
+## Fontes
+
+![Fontes para os acessos médios](https://raw.githubusercontent.com/andersonkaiti/politicai/main/.github/images/fontes.png)
+
+## Créditos
+
+![Créditos](https://raw.githubusercontent.com/andersonkaiti/politicai/main/.github/images/creditos.png)
+
+## Referências
+
+![Referências](https://raw.githubusercontent.com/andersonkaiti/politicai/main/.github/images/referencias.png)
+
+---
+
+# ✨ Principais Recursos
+
+- `Fontes Confiáveis` - Centraliza informações diretamente do Tribunal Superior Eleitoral e outros sites oficiais.
+- `Guias de Navegação` - Auxilia no acesso a dados eleitorais e informações sobre candidatos.
+- `Interface Intuitiva` - Design limpo e organizado para uma experiência fluida.
+
+---
+
+# 🚀 Rodar Projeto
+
+Instale as dependências executando o seguinte comando no terminal:
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Rode o projeto:
 
-## Learn more
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+# 🔧 Tecnologias Utilizadas
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo](https://expo.dev) - Framework para desenvolvimento de aplicativos React Native.
+- [React Native](https://reactnative.dev) - Biblioteca para criação de interfaces nativas.
+- [Expo Router](https://docs.expo.dev/router/introduction/) - Navegação baseada em rotas no estilo web.
+- [Ionicons](https://ionic.io/ionicons) - Biblioteca de ícones para componentes interativos.
