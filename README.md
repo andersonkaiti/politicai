@@ -6,25 +6,17 @@
 
 # 🖥️ Telas do aplicativo
 
-## Tela inicial
-
-![Tela inicial parte 1](https://github.com/user-attachments/assets/ff706412-b5c7-4925-a5ca-943c81bbb4ce)
-
-![Tela inicial parte 2](https://github.com/user-attachments/assets/fe8cfd2e-fe8b-4e78-bcb3-29a8c4a9533c)
-
-![Sites confiáveis](https://github.com/user-attachments/assets/74f283dc-2c53-4bfe-9795-b0641668a92f)
-
-![Passo a passo individual](https://github.com/user-attachments/assets/624346f4-a2d2-4ba3-a2ca-588f5d3fec50)
-
-![Passo a passo geral](https://github.com/user-attachments/assets/4f3f76db-9b9b-4073-a84e-71e886bf77fc)
-
-![Importância do voto](https://github.com/user-attachments/assets/28c45e61-0a92-4b46-b7c7-e612b2239a26)
-
-![Fontes para os acessos médios](https://github.com/user-attachments/assets/5407066b-4e5b-48cd-aecd-f97cdb9fa5a6)
-
-![Créditos](https://github.com/user-attachments/assets/4a23db0f-4083-4587-82ee-90adfed597df)
-
-![Referências](https://github.com/user-attachments/assets/feca89f8-59f8-444e-bd79-f9636fa965ee)
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <img src="https://github.com/user-attachments/assets/ff706412-b5c7-4925-a5ca-943c81bbb4ce" alt="Tela inicial parte 1">
+    <img src="https://github.com/user-attachments/assets/fe8cfd2e-fe8b-4e78-bcb3-29a8c4a9533c" alt="Tela inicial parte 2">
+    <img src="https://github.com/user-attachments/assets/74f283dc-2c53-4bfe-9795-b0641668a92f" alt="Sites confiáveis">
+    <img src="https://github.com/user-attachments/assets/624346f4-a2d2-4ba3-a2ca-588f5d3fec50" alt="Passo a passo individual">
+    <img src="https://github.com/user-attachments/assets/4f3f76db-9b9b-4073-a84e-71e886bf77fc" alt="Passo a passo geral">
+    <img src="https://github.com/user-attachments/assets/28c45e61-0a92-4b46-b7c7-e612b2239a26" alt="Importância do voto">
+    <img src="https://github.com/user-attachments/assets/5407066b-4e5b-48cd-aecd-f97cdb9fa5a6" alt="Fontes para os acessos médios">
+    <img src="https://github.com/user-attachments/assets/4a23db0f-4083-4587-82ee-90adfed597df" alt="Créditos">
+    <img src="https://github.com/user-attachments/assets/feca89f8-59f8-444e-bd79-f9636fa965ee" alt="Referências">
+</div>
 
 ---
 
