@@ -49,4 +49,5 @@ npx expo start
 - [Expo](https://expo.dev) - Framework para desenvolvimento de aplicativos React Native.
 - [React Native](https://reactnative.dev) - Biblioteca para criação de interfaces nativas.
 - [Expo Router](https://docs.expo.dev/router/introduction/) - Navegação baseada em rotas no estilo web.
+- [Native Wind](https://www.nativewind.dev) - Biblioteca que permite estilizar a aplicação React Native com Tailwind CSS.
 - [Ionicons](https://ionic.io/ionicons) - Biblioteca de ícones para componentes interativos.
