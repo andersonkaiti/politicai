@@ -1,5 +1,5 @@
-import { Text, ScrollView, View, Image } from "react-native";
-import importance from "@assets/data/importancia-voto.json";
+import importance from '@assets/data/importancia-voto.json'
+import { Image, ScrollView, Text, View } from 'react-native'
 
 export default function Importance() {
   return (
@@ -7,8 +7,8 @@ export default function Importance() {
       <View className="w-full px-4 pb-8 flex gap-4">
         <View className="object-contain overflow-hidden w-full flex items-center">
           <Image
-            source={require("@assets/images/Political debate-pana.png")}
-            style={{ width: "100%", height: 288 }}
+            source={require('@assets/images/Political debate-pana.png')}
+            style={{ width: '100%', height: 288 }}
           />
         </View>
         {importance?.map(({ title, text }, index) => (
@@ -23,5 +23,5 @@ export default function Importance() {
         ))}
       </View>
     </ScrollView>
-  );
+  )
 }

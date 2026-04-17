@@ -1,4 +1,4 @@
-import { Stack } from "expo-router";
+import { Stack } from 'expo-router'
 
 export default function Layout() {
   return (
@@ -6,23 +6,23 @@ export default function Layout() {
       <Stack.Screen
         name="index"
         options={{
-          title: "Créditos",
+          title: 'Créditos',
           headerStyle: {
-            backgroundColor: "#173058",
+            backgroundColor: '#173058',
           },
-          headerTintColor: "#fff",
+          headerTintColor: '#fff',
         }}
       />
       <Stack.Screen
         name="references/index"
         options={{
-          title: "Referências",
+          title: 'Referências',
           headerStyle: {
-            backgroundColor: "#173058",
+            backgroundColor: '#173058',
           },
-          headerTintColor: "#fff",
+          headerTintColor: '#fff',
         }}
       />
     </Stack>
-  );
+  )
 }

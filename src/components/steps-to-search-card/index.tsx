@@ -1,11 +1,11 @@
-import { Ionicons } from "@expo/vector-icons";
-import { boxShadow } from "@styles/boxShadow";
-import { Text, View } from "react-native";
+import { Ionicons } from '@expo/vector-icons'
+import { boxShadow } from '@styles/boxShadow'
+import { Text, View } from 'react-native'
 
 export interface IStepsToSearchCardProps {
-  name: string;
-  steps: string[];
-  tip: string;
+  name: string
+  steps: string[]
+  tip: string
 }
 
 export default function StepsToSearchCard({
@@ -38,5 +38,5 @@ export default function StepsToSearchCard({
         <Text className="text-justify text-xl text-[#767676]">{tip}</Text>
       </View>
     </View>
-  );
+  )
 }

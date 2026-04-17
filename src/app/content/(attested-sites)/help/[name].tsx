@@ -1,22 +1,22 @@
-import { ScrollView, Text, View } from "react-native";
-import { useLocalSearchParams } from "expo-router";
-import stepsSearch from "@assets/data/steps-search.json";
-import StepsToSearchCard from "@components/steps-to-search-card";
+import stepsSearch from '@assets/data/steps-search.json'
+import StepsToSearchCard from '@components/steps-to-search-card'
+import { useLocalSearchParams } from 'expo-router'
+import { ScrollView, Text, View } from 'react-native'
 
 export default function Help() {
-  const { name } = useLocalSearchParams();
+  const { name } = useLocalSearchParams()
 
-  const searchResult = stepsSearch.find((step) => step.name === name);
+  const searchResult = stepsSearch.find((step) => step.name === name)
 
   if (!searchResult) {
     return (
       <View className="bg-[#cbc8c8] px-4 py-4 rounded-md">
         <Text className="text-2xl font-bold">Ajuda não encontrada</Text>
       </View>
-    );
+    )
   }
 
-  const { steps, tip } = searchResult;
+  const { steps, tip } = searchResult
 
   return (
     <ScrollView>
@@ -24,5 +24,5 @@ export default function Help() {
         <StepsToSearchCard name={name as string} steps={steps} tip={tip} />
       </View>
     </ScrollView>
-  );
+  )
 }

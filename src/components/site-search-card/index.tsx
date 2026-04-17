@@ -1,13 +1,13 @@
-import { Feather, Ionicons } from "@expo/vector-icons";
-import { boxShadow } from "@styles/boxShadow";
-import { Href, Link } from "expo-router";
-import { Linking, Pressable, Text, View } from "react-native";
+import { Feather, Ionicons } from '@expo/vector-icons'
+import { boxShadow } from '@styles/boxShadow'
+import { Href, Link } from 'expo-router'
+import { Linking, Pressable, Text, View } from 'react-native'
 
 export interface ICardProps {
-  name: string;
-  institution: string;
-  url: string;
-  averageAccess: string;
+  name: string
+  institution: string
+  url: string
+  averageAccess: string
 }
 
 export default function SiteSearchCard({
@@ -51,5 +51,5 @@ export default function SiteSearchCard({
         </View>
       </Link>
     </View>
-  );
+  )
 }

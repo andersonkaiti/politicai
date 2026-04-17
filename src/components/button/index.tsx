@@ -1,10 +1,10 @@
-import { Link } from "expo-router";
-import { Text } from "react-native";
-import { Href } from "expo-router";
+import { Link } from 'expo-router'
+import { Href } from 'expo-router'
+import { Text } from 'react-native'
 
 export interface IButtonProps {
-  label: string;
-  route: Href;
+  label: string
+  route: Href
 }
 
 export default function Button({ label, route }: IButtonProps) {
@@ -17,5 +17,5 @@ export default function Button({ label, route }: IButtonProps) {
         {label.toLocaleUpperCase()}
       </Text>
     </Link>
-  );
+  )
 }

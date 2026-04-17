@@ -1,15 +1,15 @@
-import { Ionicons } from "@expo/vector-icons";
-import { Link } from "expo-router";
-import { Image, ScrollView, StatusBar, Text, View } from "react-native";
-import Constants from "expo-constants";
+import { Ionicons } from '@expo/vector-icons'
+import Constants from 'expo-constants'
+import { Link } from 'expo-router'
+import { Image, ScrollView, Text, View } from 'react-native'
 
 export default function Presentation() {
   return (
     <ScrollView style={{ flex: 1, marginTop: Constants.statusBarHeight }}>
       <View className="w-full justify-center items-center gap-8 px-4 py-8">
         <Image
-          source={require("@assets/images/Political debate-cuate.png")}
-          style={{ width: "100%", height: 350 }}
+          source={require('@assets/images/Political debate-cuate.png')}
+          style={{ width: '100%', height: 350 }}
         />
         <Text className="text-justify text-xl">
           PoliticAI é seu guia completo para informações essenciais sobre
@@ -32,18 +32,18 @@ export default function Presentation() {
         </Text>
         <View className="flex-col gap-4">
           <Text className="text-justify text-xl">
-            <Text className="font-bold text-[#173058]">Fontes Confiáveis:</Text>{" "}
+            <Text className="font-bold text-[#173058]">Fontes Confiáveis:</Text>{' '}
             Acesso rápido aos principais sites de informação política no Brasil.
           </Text>
           <Text className="text-justify text-xl">
             <Text className="font-bold text-[#173058]">
               Guias de Navegação:
-            </Text>{" "}
+            </Text>{' '}
             Passo a passo prático para acessar dados específicos e conhecer
             melhor os candidatos e processos eleitorais.
           </Text>
         </View>
-        <Link className="bg-[#173058] px-4 py-4 rounded-full" href={"/content"}>
+        <Link className="bg-[#173058] px-4 py-4 rounded-full" href={'/content'}>
           <View className="w-full flex-row gap-2 justify-center items-center">
             <Ionicons name="chevron-up-outline" size={20} color="#fff" />
             <Text className="text-white text-xl">Próximo</Text>
@@ -51,5 +51,5 @@ export default function Presentation() {
         </Link>
       </View>
     </ScrollView>
-  );
+  )
 }

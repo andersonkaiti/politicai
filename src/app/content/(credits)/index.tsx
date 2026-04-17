@@ -1,6 +1,6 @@
-import Button from "@components/button";
-import { Href } from "expo-router";
-import { Image, Text, View } from "react-native";
+import Button from '@components/button'
+import { Href } from 'expo-router'
+import { Image, Text, View } from 'react-native'
 
 export default function Credits() {
   return (
@@ -30,14 +30,14 @@ export default function Credits() {
           Desenvolvimento
         </Text>
         <Image
-          source={require("@assets/images/ciencia_da_computacao.png")}
-          style={{ width: "100%", height: 50 }}
+          source={require('@assets/images/ciencia_da_computacao.png')}
+          style={{ width: '100%', height: 50 }}
         />
       </View>
       <Button
         label="Referências"
-        route={"/content/(credits)/references" as Href}
+        route={'/content/(credits)/references' as Href}
       />
     </View>
-  );
+  )
 }

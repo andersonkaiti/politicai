@@ -1,5 +1,5 @@
-import references from "@assets/data/references.json";
-import { Linking, Pressable, Text, View } from "react-native";
+import references from '@assets/data/references.json'
+import { Linking, Pressable, Text, View } from 'react-native'
 
 export default function References() {
   return (
@@ -16,5 +16,5 @@ export default function References() {
         </Pressable>
       ))}
     </View>
-  );
+  )
 }

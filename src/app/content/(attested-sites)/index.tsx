@@ -1,6 +1,6 @@
-import { FlatList, View } from "react-native";
-import sites from "@assets/data/sites.json";
-import SiteSearchCard from "@components/site-search-card";
+import sites from '@assets/data/sites.json'
+import SiteSearchCard from '@components/site-search-card'
+import { FlatList, View } from 'react-native'
 
 export default function SiteSearchCards() {
   return (
@@ -12,7 +12,7 @@ export default function SiteSearchCards() {
             name={item.name}
             institution={item.institution}
             url={item.url}
-            averageAccess={item["average-access"]}
+            averageAccess={item['average-access']}
           />
         )}
         keyExtractor={(item, index) => `${item.name}-${index}`}
@@ -22,5 +22,5 @@ export default function SiteSearchCards() {
         showsVerticalScrollIndicator={false}
       />
     </View>
-  );
+  )
 }

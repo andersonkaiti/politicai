@@ -1,6 +1,6 @@
-import { FlatList, View } from "react-native";
-import stepsSearch from "@assets/data/steps-search.json";
-import StepsToSearchCard from "@components/steps-to-search-card";
+import stepsSearch from '@assets/data/steps-search.json'
+import StepsToSearchCard from '@components/steps-to-search-card'
+import { FlatList, View } from 'react-native'
 
 export default function Help() {
   return (
@@ -21,5 +21,5 @@ export default function Help() {
         showsVerticalScrollIndicator={false}
       />
     </View>
-  );
+  )
 }

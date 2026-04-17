@@ -1,7 +1,8 @@
-import { Tabs } from "expo-router";
-import "@styles/global.css";
-import { Ionicons } from "@expo/vector-icons";
-import { StatusBar } from "react-native";
+import '@styles/global.css'
+
+import { Ionicons } from '@expo/vector-icons'
+import { Tabs } from 'expo-router'
+import { StatusBar } from 'react-native'
 
 export default function IndexLayout() {
   return (
@@ -18,7 +19,7 @@ export default function IndexLayout() {
         <Tabs.Screen
           name="(attested-sites)"
           options={{
-            title: "Sites confiáveis",
+            title: 'Sites confiáveis',
             headerShown: false,
             tabBarIcon: ({ color }) => (
               <Ionicons name="globe-outline" color={color} size={24} />
@@ -28,46 +29,46 @@ export default function IndexLayout() {
         <Tabs.Screen
           name="help/index"
           options={{
-            title: "Passo a passo",
+            title: 'Passo a passo',
             tabBarIcon: ({ color }) => (
               <Ionicons name="footsteps-outline" color={color} size={24} />
             ),
             headerStyle: {
-              backgroundColor: "#173058",
+              backgroundColor: '#173058',
             },
-            headerTintColor: "#fff",
+            headerTintColor: '#fff',
           }}
         />
         <Tabs.Screen
           name="importance/index"
           options={{
-            title: "Importância",
+            title: 'Importância',
             tabBarIcon: ({ color }) => (
               <Ionicons name="star-outline" color={color} size={24} />
             ),
             headerStyle: {
-              backgroundColor: "#173058",
+              backgroundColor: '#173058',
             },
-            headerTintColor: "#fff",
+            headerTintColor: '#fff',
           }}
         />
         <Tabs.Screen
           name="source/index"
           options={{
-            title: "Fontes",
+            title: 'Fontes',
             tabBarIcon: ({ color }) => (
               <Ionicons name="book-outline" color={color} size={24} />
             ),
             headerStyle: {
-              backgroundColor: "#173058",
+              backgroundColor: '#173058',
             },
-            headerTintColor: "#fff",
+            headerTintColor: '#fff',
           }}
         />
         <Tabs.Screen
           name="(credits)"
           options={{
-            title: "Créditos",
+            title: 'Créditos',
             headerShown: false,
             tabBarIcon: ({ color }) => (
               <Ionicons name="information-outline" color={color} size={24} />
@@ -76,5 +77,5 @@ export default function IndexLayout() {
         />
       </Tabs>
     </>
-  );
+  )
 }

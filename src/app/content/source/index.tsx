@@ -1,12 +1,12 @@
-import { Image, ScrollView, Text, View } from "react-native";
+import { Image, ScrollView, Text, View } from 'react-native'
 
 export default function Source() {
   return (
     <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>
       <View className="w-full px-4 py-8 flex justify-center items-center gap-4">
         <Image
-          source={require("@assets/images/Open source-rafiki.png")}
-          style={{ width: "100%", height: 200 }}
+          source={require('@assets/images/Open source-rafiki.png')}
+          style={{ width: '100%', height: 200 }}
         />
         <Text className="text-center text-2xl font-bold text-[#173058]">
           Fonte para os acessos médios:
@@ -20,5 +20,5 @@ export default function Source() {
         </Text>
       </View>
     </ScrollView>
-  );
+  )
 }
