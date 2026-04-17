@@ -11,7 +11,7 @@ export default function Help() {
   if (!searchResult) {
     return (
       <View className="bg-[#cbc8c8] px-4 py-4 rounded-md">
-        <Text className="text-2xl font-bold">Ajuda não encontrada</Text>
+        <Text selectable className="text-2xl font-bold">Ajuda não encontrada</Text>
       </View>
     )
   }

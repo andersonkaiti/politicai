@@ -1,4 +1,5 @@
 import { Stack } from 'expo-router'
+import { colors } from '@styles/colors'
 
 export default function Layout() {
   return (
@@ -7,9 +8,7 @@ export default function Layout() {
         name="index"
         options={{
           title: 'Sites confiáveis',
-          headerStyle: {
-            backgroundColor: '#173058',
-          },
+          headerStyle: { backgroundColor: colors.blue950 },
           headerTintColor: '#fff',
         }}
       />
@@ -17,9 +16,7 @@ export default function Layout() {
         name="help/[name]"
         options={{
           title: 'Passo a passo',
-          headerStyle: {
-            backgroundColor: '#173058',
-          },
+          headerStyle: { backgroundColor: colors.blue950 },
           headerTintColor: '#fff',
         }}
       />

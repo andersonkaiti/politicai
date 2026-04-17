@@ -1,18 +1,24 @@
+import { Ionicons } from '@expo/vector-icons'
 import references from '@assets/data/references.json'
 import { Linking, Pressable, Text, View } from 'react-native'
 
 export default function References() {
   return (
-    <View className="w-full h-full px-4 py-4 gap-4 justify-evenly">
+    <View className="w-full h-full px-5 py-6 gap-3">
       {references.map(({ link, label }, index) => (
         <Pressable
           key={index}
-          className="bg-[#173058] w-full px-10 py-4 text-center rounded-3xl"
+          className="bg-blue-950 w-full px-6 py-4 rounded-xl flex-row items-center justify-between gap-4"
           onPress={() => Linking.openURL(link)}
         >
-          <Text className="text-2xl text-center text-white font-bold">
+          <Text selectable className="text-base text-white font-semibold flex-1">
             {label}
           </Text>
+          <Ionicons
+            name="open-outline"
+            size={18}
+            color="#fff"
+          />
         </Pressable>
       ))}
     </View>

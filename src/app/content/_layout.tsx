@@ -4,6 +4,7 @@ import { Ionicons } from '@expo/vector-icons'
 import { Tabs } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
+import { colors } from '@styles/colors'
 
 export default function IndexLayout() {
   const insets = useSafeAreaInsets()
@@ -13,9 +14,16 @@ export default function IndexLayout() {
       <StatusBar style="light" />
       <Tabs
         screenOptions={{
+          tabBarActiveTintColor: colors.blue950,
+          tabBarInactiveTintColor: '#9ca3af',
           tabBarStyle: {
             height: 50 + insets.bottom,
             paddingBottom: 5 + insets.bottom,
+            borderTopColor: '#e5e7eb',
+          },
+          tabBarLabelStyle: {
+            fontSize: 11,
+            fontWeight: '600',
           },
         }}
       >
@@ -37,7 +45,7 @@ export default function IndexLayout() {
               <Ionicons name="footsteps-outline" color={color} size={24} />
             ),
             headerStyle: {
-              backgroundColor: '#173058',
+              backgroundColor: colors.blue950,
             },
             headerTintColor: '#fff',
           }}
@@ -50,7 +58,7 @@ export default function IndexLayout() {
               <Ionicons name="star-outline" color={color} size={24} />
             ),
             headerStyle: {
-              backgroundColor: '#173058',
+              backgroundColor: colors.blue950,
             },
             headerTintColor: '#fff',
           }}
@@ -63,7 +71,7 @@ export default function IndexLayout() {
               <Ionicons name="book-outline" color={color} size={24} />
             ),
             headerStyle: {
-              backgroundColor: '#173058',
+              backgroundColor: colors.blue950,
             },
             headerTintColor: '#fff',
           }}

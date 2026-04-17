@@ -16,21 +16,24 @@ export default function Presentation() {
           paddingBottom: insets.bottom,
         }}
       >
-        <View className="w-full justify-center items-center gap-8 px-4 py-8">
+        <View className="w-full justify-center items-center gap-6 px-5 py-8">
           <Image
             source={require('@assets/images/Political debate-cuate.png')}
-            style={{ width: '100%', height: 350 }}
+            style={{ width: '100%', height: 300 }}
+            resizeMode="contain"
           />
-          <Text className="text-justify text-xl">
+
+          <Text selectable className="text-base text-gray-700 text-justify leading-7">
             PoliticAI é seu guia completo para informações essenciais sobre
             eleições, política e cidadania. Em um só lugar, você encontra
             conteúdo prático e confiável para conhecer candidatos, entender o
             processo eleitoral e acompanhar as últimas atualizações.
           </Text>
-          <Text className="text-center text-2xl font-bold text-[#173058]">
+
+          <Text selectable className="text-2xl font-bold text-blue-950 self-start">
             Por que usar?
           </Text>
-          <Text className="text-justify text-xl">
+          <Text selectable className="text-base text-gray-700 text-justify leading-7">
             O aplicativo oferece acesso direto a fontes confiáveis, como o
             Tribunal Superior Eleitoral e o Portal da Transparência, além de
             guias detalhados para encontrar informações específicas sobre
@@ -38,32 +41,31 @@ export default function Presentation() {
             fortalecer sua participação cidadã, promovendo decisões informadas e
             conscientes.
           </Text>
-          <Text className="text-center text-2xl font-bold text-[#173058]">
+
+          <Text selectable className="text-2xl font-bold text-blue-950 self-start">
             Principais Recursos
           </Text>
-          <View className="flex-col gap-4">
-            <Text className="text-justify text-xl">
-              <Text className="font-bold text-[#173058]">
-                Fontes Confiáveis:
-              </Text>{' '}
+          <View className="gap-3 w-full">
+            <Text selectable className="text-base text-gray-700 text-justify leading-7">
+              <Text selectable className="font-semibold text-blue-950">
+                Fontes Confiáveis:{' '}
+              </Text>
               Acesso rápido aos principais sites de informação política no
               Brasil.
             </Text>
-            <Text className="text-justify text-xl">
-              <Text className="font-bold text-[#173058]">
-                Guias de Navegação:
-              </Text>{' '}
+            <Text selectable className="text-base text-gray-700 text-justify leading-7">
+              <Text selectable className="font-semibold text-blue-950">
+                Guias de Navegação:{' '}
+              </Text>
               Passo a passo prático para acessar dados específicos e conhecer
               melhor os candidatos e processos eleitorais.
             </Text>
           </View>
-          <Link
-            className="bg-[#173058] px-4 py-4 rounded-full"
-            href={'/content'}
-          >
-            <View className="w-full flex-row gap-2 justify-center items-center">
-              <Ionicons name="chevron-up-outline" size={20} color="#fff" />
-              <Text className="text-white text-xl">Próximo</Text>
+
+          <Link className="bg-blue-950 px-8 py-4 rounded-full" href="/content">
+            <View className="flex-row gap-2 justify-center items-center">
+              <Text selectable className="text-white text-base font-semibold">Próximo</Text>
+              <Ionicons name="arrow-forward-outline" size={18} color="#fff" />
             </View>
           </Link>
         </View>
