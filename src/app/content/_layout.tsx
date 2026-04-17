@@ -2,17 +2,20 @@ import '@styles/global.css'
 
 import { Ionicons } from '@expo/vector-icons'
 import { Tabs } from 'expo-router'
-import { StatusBar } from 'react-native'
+import { StatusBar } from 'expo-status-bar'
+import { useSafeAreaInsets } from 'react-native-safe-area-context'
 
 export default function IndexLayout() {
+  const insets = useSafeAreaInsets()
+
   return (
     <>
-      <StatusBar barStyle="light-content" />
+      <StatusBar style="light" />
       <Tabs
         screenOptions={{
           tabBarStyle: {
-            height: 50,
-            paddingBottom: 5,
+            height: 50 + insets.bottom,
+            paddingBottom: 5 + insets.bottom,
           },
         }}
       >
