@@ -7,7 +7,9 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "test": "jest --watchAll",
+    "build:android": "eas build --platform android",
+    "preview:android": "eas build --platform android --profile preview",
+    "build:ios": "eas build --platform ios",
     "lint": "expo lint"
   },
   "dependencies": {
@@ -21,16 +23,13 @@
     "expo-splash-screen": "~55.0.18",
     "expo-status-bar": "~55.0.5",
     "expo-system-ui": "~55.0.15",
-    "expo-web-browser": "~55.0.14",
     "nativewind": "^4.0.1",
     "react": "19.2.0",
-    "react-dom": "19.2.0",
     "react-native": "0.83.4",
     "react-native-gesture-handler": "~2.30.0",
     "react-native-reanimated": "4.2.1",
     "react-native-safe-area-context": "~5.6.2",
     "react-native-screens": "~4.23.0",
-    "react-native-web": "^0.21.0",
     "tailwindcss": "^3.4.14"
   },
   "devDependencies": {
