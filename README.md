@@ -7,15 +7,15 @@
 # 🖥️ Telas do aplicativo
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <img src=".github/images/Apresentação parte 1.png" alt="Tela inicial parte 1">
-    <img src=".github/images/Apresentação parte 2.png" alt="Tela inicial parte 2">
-    <img src=".github/images/Sites confiáveis.png" alt="Sites confiáveis">
-    <img src=".github/images/Sites confiáveis - passo a passo.png" alt="Passo a passo individual">
-    <img src=".github/images/Passo a passo.png" alt="Passo a passo geral">
-    <img src=".github/images/Importãncia.png" alt="Importância do voto">
-    <img src=".github/images/Fontes para acessos médios.png" alt="Fontes para os acessos médios">
-    <img src=".github/images/Créditos.png" alt="Créditos">
-    <img src=".github/images/Referências.png" alt="Referências">
+    <img src=".github/images/Apresentação parte 1.png" alt="Tela inicial parte 1" width="200">
+    <img src=".github/images/Apresentação parte 2.png" alt="Tela inicial parte 2" width="200">
+    <img src=".github/images/Sites confiáveis.png" alt="Sites confiáveis" width="200">
+    <img src=".github/images/Sites confiáveis - passo a passo.png" alt="Passo a passo individual" width="200">
+    <img src=".github/images/Passo a passo.png" alt="Passo a passo geral" width="200">
+    <img src=".github/images/Importãncia.png" alt="Importância do voto" width="200">
+    <img src=".github/images/Fontes para acessos médios.png" alt="Fontes para os acessos médios" width="200">
+    <img src=".github/images/Créditos.png" alt="Créditos" width="200">
+    <img src=".github/images/Referências.png" alt="Referências" width="200">
 </div>
 
 ---
